@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	discover "github.com/hashicorp/go-discover"
-	"github.com/hashicorp/go-discover/provider/hcloud"
+	discover "github.com/qbart/go-discover"
+	"github.com/qbart/go-discover/provider/hcloud"
 )
 
 var _ discover.Provider = (*hcloud.Provider)(nil)
